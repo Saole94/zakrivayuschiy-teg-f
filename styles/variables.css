@@ -1,1 +1,23 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root  {
+  --font-family: Inter, sans-serif;
+  --font-accent: "Press Start 2P", fantasy;
+  --active-heart-color: #ff0000;
+  --font-weight-text: 400;
+  --font-weight-title: 700;
+  --text-color: #000;
+  --border-color: #000;
+  --wth-clamp-element: clamp(375px, 50%, 700px);
+  --heart-color: #fff;
+  --heart-bg-color: #000;
+  --bg-color: #fff;
+  --heart-contour: #000;
+  --text-stroke: #fff;
+  --bg-image: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+}
+
